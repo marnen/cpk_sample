@@ -9,12 +9,12 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091021203745) do
+ActiveRecord::Schema.define(:version => 20091021205356) do
 
   create_table "entries", :id => false, :force => true do |t|
-    t.integer "alpha"
-    t.integer "beta"
-    t.integer "gamma"
+    t.integer "alpha", :null => false
+    t.integer "beta",  :null => false
+    t.integer "gamma", :null => false
   end
 
 end

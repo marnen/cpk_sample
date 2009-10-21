@@ -14,7 +14,7 @@ development:
   database: cpk_sample_development
   pool: 5
   username: cpk_sample
-  password:
+  password: test
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -40,7 +40,7 @@ test:
   database: cpk_sample_test
   pool: 5
   username: cpk_sample
-  password:
+  password: test
 
 production:
   adapter: postgresql
@@ -48,4 +48,4 @@ production:
   database: cpk_sample_production
   pool: 5
   username: cpk_sample
-  password:
+  password: test
